@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+html {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.whitebg {
+    background-color: #F9FAF8;
+}
+
+.greybg {
+    background-color: #E5E7EB;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    padding: 18px 0px 0px 0px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    padding-top: 4px;
+}
+
+nav a {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+main {
+    width: 100%;
+}
+
+#product, #pictures, #quote, #buy {
+    padding: 0% 15%;
+}
+
+main h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+#product {
+    display: flex;
+    margin: 120px 0px;
+}
+
+#product p {
+    margin-top: 10px;
+}
+
+#product button {
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 10px 35px;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bolder;
+    border: none;
+    margin-top: 12px;
+}
+
+#product figure {
+    width: 640px;
+    height: 240px;
+    background-color: #909297;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pictures {
+    text-align: center;
+    color: #1F2937;
+    padding-bottom: 120px;
+}
+
+#pictures h2 {
+    padding: 60px 0px;
+}
+
+.figtainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+#pictures img {
+    padding: 80px;
+    border-radius: 16px;
+    border: 4px solid #3882F6;
+}
+
+#pictures figcaption {
+    width: 160px;
+}
+
+#quote {
+    padding: 120px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#quote figure {
+    width: 52%;
+}
+
+#quote blockquote {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    line-height: 42px;
+}
+
+#quote figcaption {
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+}
+
+#buy {
+    padding: 120px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.bluebg {
+    background-color: #3882F6;
+    display: flex;
+    width: 55%;
+    padding: 40px 120px;
+    border-radius: 8px;
+}
+
+#buy h3 {
+    font-size: 24px;
+    font-weight: bolder
+}
+
+#buy button {
+    margin-left: auto;
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    border-radius: 10px;
+    padding: 0px 35px;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+footer {
+    text-align: center;
+    width: 70%;
+    height: 20px;
+    padding: 40px 0px;
+}

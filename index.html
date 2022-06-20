@@ -8,59 +8,67 @@
     <title>A Landing Page</title>
 </head>
 <body>
-    <header>
-        <div class="logo">Header Logo</div>
-        <nav>
-            <ul>
-                <li><a href="#product">Home</a></li>
-                <li><a href="#pictures">Pictures</a></li>
-                <li><a href="#quote">Quote</a></li>
-                <li><a href="#buy">Buy Now!</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section id="product">
-            <h1>These are awesome products</h1>
-            <p>Trust me, we sell some epic weird things. Also please subscribe.</p>
-            <button>Subscribe</button>
-            <figure>
-                <img href="img/hello.jpg" alt="this is a placeholder for an image" />
-            </figure>
-        </section>
-        <section id="pictures" class="whitebg">
-            <h2>Products overview</h2>
-            <div class="container">
+    <div class="container">
+        <header>
+            <div class="logo"><a href="index.html">Header Logo</a></div>
+            <nav>
+                <ul>
+                    <li><a href="#product">Home</a></li>
+                    <li><a href="#pictures">Pictures</a></li>
+                    <li><a href="#quote">Testimonials</a></li>
+                    <li><a href="#buy">Buy Now!</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="product">
+                <div>
+                    <h1>These are awesome products</h1>
+                    <p>Trust me, we sell some epic weird things. Also please subscribe.</p>
+                    <button>Subscribe</button>
+                </div>
                 <figure>
-                    <img href="img/product1.jpg" alt="first product" />
-                    <figcaption>This is some subtext for the first product</figcaption>
+                    <img href="img/hello.jpg" alt="this is a placeholder for an image" />
                 </figure>
+            </section>
+            <section id="pictures" class="whitebg">
+                <h2>Products overview</h2>
+                <div class="figtainer">
+                    <figure>
+                        <img href="img/product1.jpg" alt="" >
+                        <figcaption>This is some subtext for the first product</figcaption>
+                    </figure>
+                    <figure>
+                        <img href="img/product2.jpg" alt="" />
+                        <figcaption>This is some subtext for the second product</figcaption>
+                    </figure>
+                    <figure>
+                        <img href="img/product3.jpg" alt="" />
+                        <figcaption>This is some subtext for the third product</figcaption>
+                    </figure>
+                    <figure>
+                        <img href="img/product4.jpg" alt="" />
+                        <figcaption>This is some subtext for the fourth product</figcaption>
+                    </figure>
+                </div>
+            </section>
+            <section id="quote" class="greybg">
                 <figure>
-                    <img href="img/product2.jpg" alt="second product" />
-                    <figcaption>This is some subtext for the second product</figcaption>
+                    <blockquote>This is an inspiring quote or a testimonial from a customer. Maybe it's just filling up space or maybe people will actually read it. Who knows? All I know is that it looks nice.</blockquote>
+                    <figcaption>-Thor, God of Thunder</figcaption>
                 </figure>
-                <figure>
-                    <img href="img/product3.jpg" alt="third product" />
-                    <figcaption>This is some subtext for the third product</figcaption>
-                </figure>
-                <figure>
-                    <img href="img/product4.jpg" alt="fourth product" />
-                    <figcaption>This is some subtext for the fourth product</figcaption>
-                </figure>
-            </div>
-        </section>
-        <section id="quote" class="greybg">
-            <figure>
-                <blockquote>This is an inspiring quote or a testimonial from a customer. Maybe it's just filling up space or maybe people will actually read it. Who knows? All I know is that it looks nice.</blockquote>
-                <figcaption>Thor, God of Thunder</figcaption>
-            </figure>
-        </section>
-        <section id="buy" class="whitebg">
-            <h3>It's time to buy this stuff bro</h3>
-            <p>It will seriously enrich your life.</p>
-            <button>Buy everything</button>
-        </section>
-    </main>
-    <footer>Copyright &copy; The Odin Project 2022</footer>
+            </section>
+            <section id="buy" class="whitebg">
+                <div class="bluebg">
+                    <div>
+                        <h3>It's time to buy this stuff bro</h3>
+                        <p>It will seriously enrich your life.</p>
+                    </div>
+                    <button>Buy everything</button>
+                </div>
+            </section>
+        </main>
+        <footer>Copyright &copy; The Odin Project 2022</footer>
+    </div>
 </body>
 </html>
