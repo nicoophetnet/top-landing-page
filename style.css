@@ -48,6 +48,10 @@ header {
     color: #F9FAF8;
 }
 
+.logo a {
+    color: #F9FAF8;
+}
+
 nav ul {
     display: flex;
     gap: 20px;
